@@ -3,12 +3,13 @@ html {
     color: #555;
 }
 body {
-    background: url('../../img/background.jpg');
+    background: url('https://cf.stbooking.co/en/wp-content/uploads/2016/10/ontheroadjapan-background-full.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
 }
+
 .page-grid {
     margin: 0;
     display: grid;
@@ -18,6 +19,7 @@ body {
         ". about-content ."
         ". footer .";
 }
+
 .menu {
     width: 990px;
     margin: 80px auto 0 auto;
@@ -41,14 +43,12 @@ body {
 .menu-item:hover
 {
     display: inline-block;
-    margin-right: 10px;
-    margin-top: 20px;
-    padding: 10px 40px 10px 40px;
+    transition: .2s ease;
     background: rgb(255, 173, 173);
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 20px;
     outline: none;
     color: rgb(0, 0, 0);
     vertical-align: bottom;
@@ -62,6 +62,7 @@ body {
 }
 .menu-item-active:hover {
     position: relative;
+    transition: .2s ease;
     bottom: -1px;
     color: #c0392b;
     padding: 15px 40px 15px 40px;
@@ -80,38 +81,15 @@ body {
     color: #ffffff;
     padding: 15px;
     text-align: center;
+    font-size:25px;
+    border-radius:5px;
+    
 }
-
-.about-page-grid {
-    background-color : rosybrown;
-    display: grid;
-    grid-template-columns: 1fr 990px 1fr;
-    grid-template-rows: fit-content fit-content;
-    grid-template-areas: 
-        ". about-content ."
-        ". footer .";
-        
+.seal
+{
+    margin-top:10px;
+    position: relative;
 }
-
-.copyright {
-    margin: 0;
-    font-size:20px;
-}
-.col-1{width :100%;}
-.col-2{width :100%;}
-.col-3{width :100%;}
-.col-4{width :100%;}
-
-.footer {
-    grid-area: footer;
-    margin-top: 30px;
-    background: white;
-    text-align: center;
-    padding: 15px;
-    box-shadow: 0px 4px #ccc;
-    border-radius: 4px;
-}
-
 
 /* Redimensionare tableta, telefon */
 @media (max-width: 768px) {
@@ -150,32 +128,34 @@ body {
 /*animatie*/
 .element {
     animation: pulse 10s infinite;
-    animation-name: stretch;
     animation-timing-function: ease-out; 
     animation-direction: alternate;
   }
-  
-  @keyframes stretch {
-    0% {
-      transform: scale(.5);
-      background-color: rgb(30, 0, 65);
-      border-radius: 100%;
-    }
+.elementMenu
+  {
+    animation: pulse 2s infinite;
+    animation-name: font; 
+    animation-timing-function: ease-out; 
+    animation-direction: alternate;
+  }
+  @keyframes font {
+
     50% {
-      background-color: rgb(129, 0, 0);
+        font-size: 20px;
     }
     100% {
     
-      background-color: rgb(255, 100, 92);
+        font-size: 23px;
     }
   }
+  
 
   @keyframes pulse {
     0% {
-      background-color: rgb(30, 0, 65);
+      background-color: rgb(255, 128, 124);
     }
     100% {
-      background-color: rgb(255, 100, 92);
+      background-color: rgb(78, 0, 20);
     }
   }
 

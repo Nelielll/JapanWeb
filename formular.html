@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="poze.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" href="formular.css">
+    <title>Japan Form</title>
+</head>
+<body id="body">
+        <div class = "header element">
+                <h1 class = "element">Mitocaru Andreea</h1>
+            </div>
+    <nav class="menu">
+            <a class="menu-item " href="proiect.html"> <i class="fa fa-home"></i> Home </a>
+            <a class="menu-item" href="cultura.html"><i class="	fa fa-archive"></i> Culture </a>
+            <a class="menu-item " href="poze.html"><i class="fa fa-photo"></i> Photos </a>
+            <a class="menu-item" href="facts.html"><i class="	fa fa-smile-o"></i> Facts </a>
+            <a href="formular.html" class="menu-item menu-item-active elementMenu" ><i class="fa fa-wpforms"></i>Alege excursie</a>
+    </nav>
+    
+    <form class="formular" onsubmit="return false">
+        Numele orasului: <input type="text" name="fname" id="nume">
+        Pret maxim(Euro): <input type="text" name="fname" id="pret">
+        <button id ="suntUnButon">Cauta</button>
+        <button id="orice">Afiseaza toate orasele</button>
+    </form>
+    <form  class="formular" onsubmit="return false" id="alege">
+            Numele : <input type="text" name="fname" id="numePers">
+            Prenumele : <input type="text" name="fname" id="prenumePers">
+            Orasul dorit: <input type="text" name="fname" id="orasPers">
+            Anul plecarii : <input type="text" name="fname" id="an">
+            Luna : <input type="text" name="fname" id="luna">
+            <button id ="buton">Alege excursia </button>
+            <button id ="buton2">Updateaza informatia </button>
+            <button id ="buton3">Sterge o excursie </button>
+    </form>
+    
+    
+</body>
+</html>
+<script src="javascript.js"></script>

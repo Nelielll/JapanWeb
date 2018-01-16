@@ -1,0 +1,113 @@
+{
+  "dogs": [
+    {
+      "name": "AFFENPINSCHER",
+      "img": "https://dog.ceo/api/img/affenpinscher/n02110627_11584.jpg",
+      "id": 1
+    },
+    {
+      "name": "AKITA",
+      "img": "https://dog.ceo/api/img/akita/Akita_Inu_dog.jpg",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "CHIHUAHUA",
+      "img": "https://dog.ceo/api/img/chihuahua/n02085620_8578.jpg"
+    },
+    {
+      "id": 4,
+      "name": "LHASA",
+      "img": "https://dog.ceo//api//img//lhasa//n02098413_3033.jpg"
+    },
+    {
+      "id": 5,
+      "name": "MINIATURE SCHNAUZER",
+      "img": "https://dog.ceo//api//img//schnauzer//n02097209_920.jpg"
+    }
+  ],
+  "orase": [
+    {
+      "name": "Tokyo",
+      "img": "https://i.pinimg.com/736x/c9/e5/c8/c9e5c81e4cfb24e1262a017e6f5231ec.jpg",
+      "id": 1,
+      "price": 1000
+    },
+    {
+      "name": "Osaka",
+      "img": "https://img.posterlounge.co.uk/images/wbig/poster-burg-osaka-in-japan-zur-kirschbluete-1531888.jpg",
+      "id": 2,
+      "price": 800
+    },
+    {
+      "id": 3,
+      "name": "Hokkaido",
+      "img": "https://japancentre.chanbrothers.com/Content/images/thumbnails/JP10IG.jpg",
+      "price": 700
+    },
+    {
+      "id": 4,
+      "name": "Fukuoka",
+      "img": "https://i.pinimg.com/736x/0f/39/bc/0f39bccca069e597aab24196716755f1--metro-station-fukuoka.jpg",
+      "price": 500
+    },
+    {
+      "id": 5,
+      "name": "Sapporo",
+      "img": "https://c1.staticflickr.com/9/8684/17094311097_8987c3f984_z.jpg",
+      "price": 600
+    },
+    {
+      "name": "Nagoya",
+      "img": "http://www.centrair.jp/en/japantravel/spot/assets_c/2015/02/NagoyaCastle-thumb-500x500-1112.jpg",
+      "price": 400,
+      "id": 6
+    },
+    {
+      "name": "Shizuoka",
+      "img": "https://78.media.tumblr.com/8cabddbfee43086a2ad002d1d49250c8/tumblr_oid4i8N9WV1qc3w7uo1_500.jpg",
+      "id": 7,
+      "price": 300
+    },
+    {
+      "name": "Tokyo",
+      "img": "https://images.8tracks.com/cover/i/002/439/389/tumblr_mm2gp6qJhl1re7fvvo1_500-5877.jpg?rect=0,166,500,500&q=98&fm=jpg&fit=max",
+      "id": 8,
+      "price": 1200
+    }
+  ],
+  "excursii": [
+    {
+      "name": "Mitocaru",
+      "surname": "Andreea",
+      "city": "Tokyo",
+      "year": "2019",
+      "month": "Martie",
+      "id": 1
+    },
+    {
+      "name": "asd",
+      "surname": "ad ",
+      "city": "asd",
+      "year": "wdq",
+      "month": "qw",
+      "id": 3
+    },
+    {
+      "name": "123",
+      "surname": "123",
+      "city": "2",
+      "year": "123",
+      "month": "3",
+      "id": 4
+    },
+    {
+      "name": "Rares",
+      "surname": "Mincu",
+      "city": "Osaka",
+      "year": "2019",
+      "month": "Octombrie",
+      "id": 5
+    }
+  ]
+}

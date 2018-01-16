@@ -10,6 +10,12 @@
     position: relative;
     align-items: baseline;
 }
+.formular
+{color:black;
+font-size: 25px;
+text-align: center;
+background:pink;
+}
 
 .container-facts{
     display: flex;

@@ -164,7 +164,7 @@ function updateExcursie(id) {
 }
 
 document.getElementById("buton2").addEventListener("click", function(){
-  var id = 2;
+  var id = 3;
   updateExcursie(id);
 });
 
@@ -181,7 +181,7 @@ function deleteEcursie(id) {
 }
 
 document.getElementById("buton3").addEventListener("click", function(){
-  var id = 2;
+  var id = 3;
   deleteEcursie(id);
 });
 
